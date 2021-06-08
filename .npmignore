@@ -1,0 +1,10 @@
+coverage/
+docs/
+node_modules/
+src/
+tests/
+.*
+*.md
+*.sh
+*.tgz
+*.config.js

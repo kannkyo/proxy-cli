@@ -1,0 +1,12 @@
+{
+  "standard.autoFixOnSave": true,
+  "standard.usePackageJson": true,
+  "standard.engine": "ts-standard",
+  "javascript.validate.enable": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "standard.vscode-standard"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "standard.vscode-standard"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "resolveJsonModule": true,
+    "outDir": "dist/"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "ts-standard": {
+    "ignore": [
+      "node_modules/",
+      "**/*.js",
+      "**/*.js.map",
+      "**/*.d.ts",
+      "**/*.d.ts.map"
+    ],
+    "envs": ["jest"]
+  },
+  "typedocOptions": {
+    "entryPoints": ["src"],
+    "out": "docs",
+    "includes": "src/**/*.ts"
+  }
+}
